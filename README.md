@@ -2,6 +2,7 @@
 
 ## Prerequisites
 - [OpenSSL](https://www.openssl.org/)  3.2.1 or later
+- [hexl](https://github.com/intel/hexl) v1.2.5 or later
 
 ## Installation
 Supported platforms: Linux.  
