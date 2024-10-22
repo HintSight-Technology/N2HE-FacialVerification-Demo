@@ -5,7 +5,7 @@
 - [hexl](https://github.com/intel/hexl) v1.2.5 or later
 
 ## Installation
-Supported platforms: Linux.  
+Supported platforms: Linux / macOS with Intel CPU.  
 
 ```
 cd build
