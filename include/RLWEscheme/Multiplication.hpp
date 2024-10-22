@@ -17,7 +17,7 @@ extern vector<vector<polynomial>> RelK_Gen(const polynomial & s, int N, int64_t 
 
 extern vector<polynomial> ct_multiplication(const vector<polynomial> & ct1, const vector<polynomial> & ct2, 
   const vector<vector<polynomial>> & RelK, int N, int64_t ct_modulus, int64_t pt_modulus, 
-  int logq, int64_t b, int logb, const polynomial& s){
+  int logq, int64_t b, int logb){
 
   //ct1 *= pt_modulus/ct_modulus
   vector<polynomial> r_ct1(2,polynomial(N,0));
