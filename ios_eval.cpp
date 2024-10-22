@@ -99,10 +99,10 @@ extern void eval_test(){
   }
 */
   vector<polynomial> RLWE_mul1 = ct_multiplication(ct,ct1, RelK, degree, ct_modulus,modulus, 
-    logq, b, logb,s);
+    logq, b, logb);
 
   vector<polynomial> RLWE_mul2 = ct_multiplication(ct,ct2, RelK, degree, ct_modulus,modulus, 
-    logq, b, logb,s);
+    logq, b, logb);
 
 
 
